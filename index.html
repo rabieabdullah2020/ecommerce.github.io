@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce Website</title>
+  </head>
+  <body>
+        <!--===========================================Navbar================================================-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#">E <span class="blue">S</span>pring</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+              <form class="d-flex m-auto">
+                <input class="form-control me-1 col-lg-8" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+              </form>
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hello, sign in
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenu">
+                    <li>
+                      <div class="dropdown-item d-grid gap-2 col-6 mx-auto">
+                        <button class="btn btn-primary" type="button">Log In</button>
+                      </div>
+                    </li>
+                    <li><a class="dropdown-item" href="#">
+                      Don't have an account? <div class="m-auto text-center mt-1"><a href="#">Sign Up</a></div>
+                    </a></li>
+                    <li><a class="dropdown-item" href="#">My orders</a></li>
+                    <li><a class="dropdown-item" href="#">Recomendations</a></li>
+                    <li><a class="dropdown-item" href="#">Lists</a></li>
+                    <li><a class="dropdown-item" href="#">Content & Devices</a></li>
+                    <li><a class="dropdown-item" href="#">Membership & Subscription</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Orders</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> <i class="fa fa-shopping-cart fa-lg"></i> <small>Cart</small></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- ======================================Slider============================================-->
+        <div id="myCarousel" class="carousel  carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img src="images/weShip_bg01.jpeg" class="d-block w-100">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>We ship over 45 million</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+              <img src="images/computersAccessors_bg02.jpeg" class="d-block w-100 ">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Shop computers & Accessories</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1500">
+              <img src="images/toys_bg03.jpeg" class="d-block w-100">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Shop Toys & Games</h5>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+        <!--===========================Features========================-->
+        <section id="features">
+          <div class="container">
+            <div class="row ">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+                <div class="card h-700">
+                  <h5 class="card-title">Beauty picks</h5>
+                  <img src="images/makeup.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                  <h5 class="card-title">Deals & Promotions</h5>
+                  <img src="images/deals.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                  <h5 class="card-title">Automobiles & Motorcycles</h5>
+                  <img src="images/motorcycle.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                  <h5 class="card-title">Machinery</h5>
+                  <img src="images/machinery.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+                <div class="card h-100">
+                  <h5 class="card-title">Shop by Category</h5>
+                  <img src="images/category.jpg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                  <h5 class="card-title">Electronics</h5>
+                  <img src="images/electronincs.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                  <h5 class="card-title">Shop top categories</h5>
+                  <img src="images/bg06.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                  <h5 class="card-title">Computers & Accessories</h5>
+                  <img src="images/bg03.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--======================Discover my E-commerce website Slider====================================-->
+    
+      
+     
+        
+        <!--================================Top beauty products=====================================================-->
+        <section id="top">
+            <div class="container">
+              <div class="row">
+                <h5 id="heading">Top beauty products <a href="#">Shop now</a> </h5> 
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                  <img src="images/beauty_prod01.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                  <img src="images/beauty_prod02.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                  <img src="images/beauty_prod03.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                  <img src="images/beauty_prod04.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                  <img src="images/beauty_prod05.jpeg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                  <img src="images/beauty_prod06.jpeg" class="img-fluid" alt="">
+                </div>
+                
+              </div>
+            </div>
+        </section>
+
+        <!--=======================Top phone products====================================-->
+        <section id="top-2">
+          <div class="container">
+            <div class="row mt-4">
+              <h5 id="heading">Top phone products <a href="#">Shop now</a> </h5> 
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/phone_prod01.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/phone_prod02.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/phone_prod03.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/phone_prod04.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/phone_prod05.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/phone_prod06.jpeg" class="img-fluid" alt="">
+              </div>
+              
+            </div>
+          </div>
+      </section>
+        
+        <!--====================features-2=======================-->
+        <section id="features-2">
+          <div class="container">
+            <div class="row ">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+                <div class="card h-700">
+                  <h5 class="card-title">Shop Laptops & Tablets</h5>
+                  <img src="images/feature-2-01.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                  <h5 class="card-title">Explore home bedding</h5>
+                  <img src="images/feature-2-02.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                  <h5 class="card-title">Create with strip lights</h5>
+                  <img src="images/feature-2-03.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                  <h5 class="card-title">Electeic car</h5>
+                  <img src="images/feature-2-04.jpeg" class="card-img">
+                  <div class="card-body">
+                    <a href="#"">see more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+               <!--================================Gifts in Video Game=====================================================-->
+               <section id="top-3">
+                <div class="container">
+                  <div class="row">
+                    <h5 id="heading">Gifts in Video Game <a href="#">Shop now</a> </h5> 
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img src="images/games01.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img src="images/games02.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img src="images/games03.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img src="images/games04.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img src="images/games05.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                      <img src="images/games06.jpeg" class="img-fluid" alt="">
+                    </div>
+                    
+                  </div>
+                </div>
+            </section>
+    
+            <!--=======================Best Sellers in Baby====================================-->
+            <section id="top-4">
+              <div class="container">
+                <div class="row mt-4">
+                  <h5 id="heading">Best Sellers Baby Products <a href="#">Shop now</a> </h5> 
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <img src="images/baby01.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <img src="images/baby02.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <img src="images/baby03.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <img src="images/baby04.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <img src="images/baby05.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                    <img src="images/baby06.jpg" class="img-fluid" alt="">
+                  </div>
+                  
+                </div>
+              </div>
+          </section>
+                 <!--================================Top beauty products=====================================================-->
+        <section id="top-5">
+          <div class="container">
+            <div class="row mt-4">
+              <h5 id="heading">Top beauty products <a href="#">Shop now</a> </h5> 
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/beauty_prod01.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/beauty_prod02.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/beauty_prod03.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/beauty_prod04.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/beauty_prod05.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <img src="images/beauty_prod06.jpeg" class="img-fluid" alt="">
+              </div>
+              
+            </div>
+          </div>
+      </section>
+
+      <!--=======================Top phone products====================================-->
+      <section id="top-6">
+        <div class="container">
+          <div class="row mt-4">
+            <h5 id="heading">Top phone products <a href="#">Shop now</a> </h5> 
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img src="images/phone_prod01.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img src="images/phone_prod02.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img src="images/phone_prod03.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img src="images/phone_prod04.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img src="images/phone_prod05.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img src="images/phone_prod06.jpeg" class="img-fluid" alt="">
+            </div>
+            
+          </div>
+        </div>
+    </section>
+    <!--=================Sign in section==================-->
+    <section id="signIn">
+      <div class="container mt-4 pt-4">
+        <div class="row">
+          <div class="col">
+            <h5 class="text-center mt-2 p-t-2">Best sellers in Kindle eBooks</h5>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">Sign in to see personalized recommendations</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===================final section=============================-->
+    <section id="final">
+      <div class="container-fluid bg-dark">
+        <div class="container  mt-4 pt-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <h5>Get to Know Us</h5>
+              <a href="#" class="link d-block">Careers</a>
+              <a href="#" class="link d-block">Blog</a>
+              <a href="#" class="link d-block">About E-Spring</a>
+              <a href="#" class="link d-block">Investor Relations</a>
+              <a href="#" class="link d-block">E-Spring Devices</a>
+              <a href="#" class="link d-block">E-Spring Tours</a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <h5>Make Money with Us</h5>
+              <a href="#" class="link d-block">Sell products on E-Spring</a>
+              <a href="#" class="link d-block">Sell apps on E-Spring</a>
+              <a href="#" class="link d-block">Become an Affiliate</a>
+              <a href="#" class="link d-block">Advertise Your Products</a>
+              <a href="#" class="link d-block">Self-Publish with Us</a>
+              <a href="#" class="link d-block">Host an E-Spring Hub</a>
+              <a href="#" class="link d-block">See More Make Money with Us</a>
+  
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <h5>Amazon Payment Products</h5>
+              <a href="#" class="link d-block">E-commerce Business Card</a>
+              <a href="#" class="link d-block">Shop with Points</a>
+              <a href="#" class="link d-block">Reload Your Balance</a>
+              <a href="#" class="link d-block">E-commerce Currency Converter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h5 class="text-center mt-4 pt-4">Created by Rabie Abdullah,</h5>
+            <p class="text-center"> Al rights preserved &copy;2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+  </body>
+</html>
