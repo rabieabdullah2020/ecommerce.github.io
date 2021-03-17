@@ -18,13 +18,14 @@ body, html {
 .carousel-item {
     height: 700px;
 }
+
 .carousel-dark .carousel-caption {
     color: rgb(0, 255, 42);
     top: 50%;
     font-weight: bolder;
 }
 .carousel-dark .carousel-caption {
-    color: rgb(21, 16, 46);
+    color: #fff;
     top: 50%;
     font-weight: bolder;
 }
@@ -33,6 +34,19 @@ body, html {
     font-weight: bolder;
 }
 
+
+
+@media (max-width: 576px) {
+    .carousel-item {
+        height: 350px;
+    }
+    .carousel-dark .carousel-caption {
+        top: 20px;
+    }
+    .carousel-dark .carousel-caption h5 { 
+        font-size: 25px;
+    }
+ }
 /*================Features=====================*/
 #features .row,
 #features-2 .row{
